@@ -14,7 +14,7 @@ What it does
 To initially set up
 -------------------
 
-1) Download and open save2partslist.R in RStudio or with R. 
+1. Download and open save2partslist.R in RStudio or with R. 
 
 2) Set working directory to same folder as save2partslist.R. In RStudio go to Session->Set Working Directory->To Source File Location.
 

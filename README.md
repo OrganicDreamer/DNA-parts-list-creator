@@ -1,4 +1,4 @@
-# What it does
+# What it does - save2partslist.R
 
 1) Removes ALL whitespace and capitalizes ALL bases in DNA sequences
 
@@ -10,9 +10,9 @@
 
 5) Updates partslist.txt (if it already exists) with new part name and sequence
 
-# To initially set up
+\To initially set up
 
-1) Downlaod and open save2partslist.R in RStudio or with R. 
+1) Download and open save2partslist.R in RStudio or with R. 
 
 2) Set working directory to same folder as save2partslist.R. In RStudio go to Session->Set Working Directory->To Source File Location.
 
@@ -28,13 +28,13 @@
 
 1) Just delete partslist.txt and start a new parts list. 
 
-# To remove 1 part from the parts list (parts list contains 2+ parts)
+# To remove parts from the parts list (parts list contains 2+ parts):
 
-1) 
+1) Download and open deleteLotsOfPartsFromList.R in RStudio or with R. 
 
-# To remove multiple parts from the parts list at a time (parts list contains 2+ parts):
+2) Set working directory to same folder as this file. In RStudio go to Session->Set Working Directory->To Source File Location.
 
-1)
+3) Run the script. In RStudio the keyboard shortcut is Ctrl+Alt+R. This defines the function deleteLotsOfPartsFromList()
 
 
 

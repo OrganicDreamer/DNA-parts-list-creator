@@ -24,7 +24,7 @@ To use after set up:
 
 1) In R (CONSOLE WINDOW ONLY, YOU BIOLOGISTS!!!) type: save2partslist("the part's name","the part's sequence")
 
-2) Open folder where save2partslist.R is saved, open partslist.txt to view your parts list. 
+2) Go to folder where save2partslist.R is saved, open partslist.txt to view your parts list. 
 
 
 

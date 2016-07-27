@@ -24,11 +24,13 @@
 
 2) Go to folder where save2partslist.R is saved, open partslist.txt to view your parts list. 
 
-# To remove a part from parts list
+# To remove parts from the parts list
 
-1) Open partslist.txt
+1) If parts list is only 1 part long, just delete partslist.txt and start a new parts list.
 
-2) Delete the partlist #, part name and part sequence.  
+If the parts list contains 2+ parts:
+
+1)
 
 
 

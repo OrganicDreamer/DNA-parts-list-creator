@@ -11,7 +11,8 @@ What it does
 
 5) Updates partslist.txt (if it already exists) with new part name and sequence
 
-\To initially set up
+To initially set up
+-------------------
 
 1) Download and open save2partslist.R in RStudio or with R. 
 

@@ -12,7 +12,7 @@
 
 5) Updates partslist.txt (if it already exists) with new part name and sequence
 
-To initially set up:
+# To initially set up:
 
 1) Open save2partslist.R in RStudio or with R. 
 
@@ -20,7 +20,7 @@ To initially set up:
 
 3) Run the script. In RStudio the keyboard shortcut is Ctrl+Alt+R. This defines the function save2partslist()
 
-To use after set up:
+# To use after set up:
 
 1) In R (CONSOLE WINDOW ONLY, YOU BIOLOGISTS!!!) type: save2partslist("the part's name","the part's sequence")
 

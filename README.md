@@ -1,6 +1,7 @@
 # DNA-parts-list-creator
 
 What it does:
+
 1) Removes ALL whitespace and capitalizes ALL bases in DNA sequences
 
 2) Checks the part's DNA sequence to make sure it only contains A, T, C or G. Will NOT allow sequences with non-ATCG characters to be added. 
@@ -15,6 +16,7 @@ What it does:
 
 
 To initially set up:
+
 1) Open save2partslist.R in RStudio or with R. 
 
 2) Set working directory to same folder as save2partslist.R. In RStudio go to Session->Set Working Directory->To Source File Location.

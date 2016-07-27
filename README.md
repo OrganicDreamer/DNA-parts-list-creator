@@ -1,7 +1,7 @@
 What it does
 =============
 
-1) Removes ALL whitespace and capitalizes ALL bases in DNA sequences
+* Removes ALL whitespace and capitalizes ALL bases in DNA sequences
 
 2) Checks the part's DNA sequence to make sure it only contains A, T, C or G. Will NOT allow sequences with non-ATCG characters to be added. 
 

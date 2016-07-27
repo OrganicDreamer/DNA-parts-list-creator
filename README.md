@@ -6,7 +6,7 @@
 
 2) Checks the part's DNA sequence to make sure it only contains A, T, C or G. Will NOT allow sequences with non-ATCG characters to be added. 
 
-3) Checks the part's name and DNA sequence to see if it is a duplicate of something already in partslist.txt. Will NOT allow duplicate named parts or duplicate sequences to be added to partslist.txt
+3) Checks the part's name and DNA sequence to see if it is a duplicate of something already in partslist.txt. Will NOT allow duplicate named parts or duplicate sequences to be added to partslist.txt. 
 
 4) Creates a text file (if none already exists) and saves part name and sequence to partslist.txt
 
@@ -14,7 +14,7 @@
 
 # To initially set up:
 
-1) Open save2partslist.R in RStudio or with R. 
+1) Downlaod and open save2partslist.R in RStudio or with R. 
 
 2) Set working directory to same folder as save2partslist.R. In RStudio go to Session->Set Working Directory->To Source File Location.
 

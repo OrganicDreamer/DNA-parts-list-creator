@@ -1,4 +1,5 @@
-# What it does - save2partslist.R
+What it does
+=============
 
 1) Removes ALL whitespace and capitalizes ALL bases in DNA sequences
 

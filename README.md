@@ -1,5 +1,4 @@
-What it does
-=============
+# What it does #
 
 * Removes ALL whitespace and capitalizes ALL bases in DNA sequences
 
@@ -11,8 +10,7 @@ What it does
 
 * Updates partslist.txt (if it already exists) with new part name and sequence
 
-To initially set up
--------------------
+### To initially set up ###
 
 1. Download and open save2partslist.R in RStudio or with R. 
 
@@ -20,24 +18,23 @@ To initially set up
 
 3. Run the script. In RStudio the keyboard shortcut is Ctrl+Alt+R. This defines the function save2partslist()
 
-To use after set up
--------------------
+### To use after set up ###
 
 1. In R (CONSOLE WINDOW ONLY, YOU BIOLOGISTS!!!) type: save2partslist("the part's name","the part's sequence")
 
 2. Go to folder where save2partslist.R is saved, open partslist.txt to view your parts list. 
 
-To remove parts from the parts list 
-===================================
+# To remove parts from the parts list #
 
 1. If there is only 1 part in the list, just delete partslist.txt and start a new parts list. 
 
-2. If there are 2+ parts in the parts list, download and open deleteLotsOfPartsFromList.R in RStudio or with R. 
-Set working directory to same folder as this R file. In RStudio go to Session->Set Working Directory->To Source File Location.
+2. If there are 2+ parts in the parts list, download and open deleteLotsOfPartsFromList.R in RStudio or with R.
 
-Run the script. In RStudio the keyboard shortcut is Ctrl+Alt+R. This defines the function deleteLotsOfPartsFromList()
+  1. Set working directory to same folder as this R file. In RStudio go to Session->Set Working Directory->To Source File Location.
 
-In R console window, for as many parts as you want to delete type: deleteLotsOfPartsFromList("part name 1", "part name 2", "part name 3"). 
+  2. Run the script. In RStudio the keyboard shortcut is Ctrl+Alt+R. This defines the function deleteLotsOfPartsFromList()
+
+  3. In R console window, for as many parts as you want to delete type: deleteLotsOfPartsFromList("part name 1", "part name 2", "part name 3"). 
 
 
 

@@ -1,5 +1,3 @@
-# DNA-parts-list-creator
-
 # What it does:
 
 1) Removes ALL whitespace and capitalizes ALL bases in DNA sequences

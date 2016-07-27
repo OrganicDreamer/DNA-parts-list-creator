@@ -20,7 +20,8 @@ To initially set up
 
 3) Run the script. In RStudio the keyboard shortcut is Ctrl+Alt+R. This defines the function save2partslist()
 
-# To use after set up
+To use after set up
+-------------------
 
 1) In R (CONSOLE WINDOW ONLY, YOU BIOLOGISTS!!!) type: save2partslist("the part's name","the part's sequence")
 

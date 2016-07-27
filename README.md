@@ -34,9 +34,9 @@ To remove parts from the parts list
 
 2. If there are 2+ parts in the parts list, download and open deleteLotsOfPartsFromList.R in RStudio or with R. 
 
-* Set working directory to same folder as this R file. In RStudio go to Session->Set Working Directory->To Source File Location.
+⋅⋅1 .Set working directory to same folder as this R file. In RStudio go to Session->Set Working Directory->To Source File Location.
 
-* Run the script. In RStudio the keyboard shortcut is Ctrl+Alt+R. This defines the function deleteLotsOfPartsFromList()
+⋅2.Run the script. In RStudio the keyboard shortcut is Ctrl+Alt+R. This defines the function deleteLotsOfPartsFromList()
 
 * In R console window, for as many parts as you want to delete type: deleteLotsOfPartsFromList("part name 1", "part name 2", "part name 3"). 
 

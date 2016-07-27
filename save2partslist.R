@@ -56,7 +56,7 @@ save2partslist <- function (name, part_seq)
       #Equidistant TRUE values in the vector elements correspond to duplicated sequences:
       whichAreDuplicates<-duplicated(sequencesInPartsList) | duplicated(sequencesInPartsList, fromLast = TRUE)
        
-      #Determing which part's sequence the recently added sequence is a duplicate of (will be first TRUE in allDuplicates)
+      #Determing which part's sequence the recently added sequence is a duplicate of (will be first TRUE in whichAreDuplicates)
       for (j in whichAreDuplicates)
       {
         if (j==TRUE)

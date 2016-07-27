@@ -28,7 +28,7 @@ To use after set up
 2. Go to folder where save2partslist.R is saved, open partslist.txt to view your parts list. 
 
 To remove parts from the parts list 
-------------------------------------
+===================================
 
 1. If there is only 1 part in the list, just delete partslist.txt and start a new parts list. 
 
@@ -38,7 +38,7 @@ To remove parts from the parts list
 
 4. Run the script. In RStudio the keyboard shortcut is Ctrl+Alt+R. This defines the function deleteLotsOfPartsFromList()
 
-5. In R console window, for as many parts as you want to delete type: deleteLotsOfPartsFromList("part name 1", "part name 2", "part name 3").  
+5. In R console window, for as many parts as you want to delete type: deleteLotsOfPartsFromList("part name 1", "part name 2", "part name 3"). 
 
 
 

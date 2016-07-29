@@ -35,52 +35,28 @@ save2partslist <- function (name, part_seq)
   {
     partslist<-read.table(paste0(getwd(),"/","partslist.txt"),stringsAsFactors=FALSE)
     
-    #save name and sequence to the parts list  
-    new_entry_row<-c(name,part_seq)
-    partslist<-rbind(partslist,new_entry_row)
-    
-    #Undo adding the new part if it is a duplicate
-    if (anyDuplicated(partslist)>0)
+    #Check if part sequence is already present in parts list:
+    if (is.na(match(part_seq,partslist[,2]))!=TRUE)
     {
-      partslist<-partslist[(nrow(partslist)-1),]
-      return("Complete duplicate part detected. Part was not added to parts list.")
-    }
-
-    if (anyDuplicated(partslist[,2])>0)
-    {
-      #List of sequences in the parts list
-      sequencesInPartsList<-data.frame(seq=table[,2])
-       
-      #Apply duplicated() in both forward and reverse order of list of sequences
-      #Create combined logical vector of this
-      #Equidistant TRUE values in the vector elements correspond to duplicated sequences:
-      whichAreDuplicates<-duplicated(sequencesInPartsList) | duplicated(sequencesInPartsList, fromLast = TRUE)
-       
-      #Determing which part's sequence the recently added sequence is a duplicate of (will be first TRUE in whichAreDuplicates)
-      for (j in whichAreDuplicates)
-      {
-        if (j==TRUE)
-        {
-          #Get index via which() and hence the part name of sequence that has been duplicated
-          firstInstanceOfDuplicate<-partslist[which(j==TRUE),1]
-          break
-        }
-      }
-
-      #Remove recently added duplicate:
-      partslist<-partslist[(nrow(partslist)-1),]
+      partNameOfDupSeq<-partslist[match(part_seq,partslist[,2]),1]
       
-      return(paste0("Duplicate sequence detected. Duplicate of the sequence for the part named: ",firstInstanceOfDuplicate,". Part was not added to parts list."))
+      stop(paste0('Duplicate of the sequence for part named: "',partNameOfDupSeq,'" was entered. Part was not added to parts list.'))
     }
-
-    if (anyDuplicated(partslist[,1])>0)
+    
+    #Check if part name is already present in parts list:
+    else if (is.na(match(name,partslist[,1]))!=TRUE)
     {
-      partslist<-partslist[(nrow(partslist)-1),]
-      return("Duplicate part name detected. Part was not added to parts list.")
+      stop(paste0('Part with name "',name,'"is already in the parts list, so the part just entered was not saved to the parts list. The part sequence just entered has NOT been added to the parts list before though :).'))
     }
     
-    
-    write.table(partslist, file=paste0(getwd(),"/","partslist.txt"))
+    else
+    {
+      #save name and sequence to the parts list is BOTH are new entries
+      new_entry_row<-c(name,part_seq)
+      partslist<-rbind(partslist,new_entry_row)
+      write.table(partslist, file=paste0(getwd(),"/","partslist.txt"))
+      return(paste0(name,' has been added to partslist.txt :)'))
+    }
     
   }
   
@@ -97,6 +73,7 @@ save2partslist <- function (name, part_seq)
     colnames(partslist) <- c('Part Name','DNA sequence')
     
     write.table(partslist, file=paste0(getwd(),"/","partslist.txt"))
+    return(paste0(name,' has been added to the new file partslist.txt :)'))
     
   }
   

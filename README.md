@@ -1,4 +1,4 @@
-# What it does #
+# What it does for iGEMers #
 
 * Removes ALL whitespace and capitalizes ALL bases in DNA sequences
 

@@ -11,7 +11,7 @@
     You should have received a copy of the GNU General Public License
     along with VESICLES.  If not, see <http://www.gnu.org/licenses/>.
 
-# What it does for iGEMers #
+# What does VESICLES do? #
 
 * Removes ALL whitespace and capitalizes ALL bases in DNA sequences
 
@@ -37,7 +37,7 @@
 
 2. Go to folder where save2partslist.R is saved, open partslist.txt to view your parts list. 
 
-# To remove parts from the parts list #
+#### To remove parts from the parts list ####
 
 1. If there is only 1 part in the list, just delete partslist.txt and start a new parts list. 
 

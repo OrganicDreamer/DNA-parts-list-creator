@@ -28,9 +28,9 @@
 
 * Checks the part's name and DNA sequence to see if it is a duplicate of something already in partslist.txt. 
 
-    * Will NOT allow duplicate part names or duplicate sequences to be added to partslist.txt. 
+* Will NOT allow duplicate part names or duplicate sequences to be added to partslist.txt. 
 
-    * For attempts to add duplicate sequences to the parts list, the part name of the sequence being duplicated will be identified. 
+* For attempts to add duplicate sequences to the parts list, the part name of the sequence being duplicated will be identified. 
 
 * Creates a text file (if none already exists) and saves part name and sequence to partslist.txt
 

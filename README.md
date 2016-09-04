@@ -23,19 +23,13 @@
 
 * Updates partslist.txt (if it already exists) with new part name and sequence
 
-### To initially set up ###
-
-1. Download this repository and open save2partslist.R in RStudio or with R. 
-
-2. Set working directory to same folder as save2partslist.R. In RStudio go to Session->Set Working Directory->To Source File Location.
-
-3. Run the script. In RStudio the keyboard shortcut is Ctrl+Alt+R. This defines the function save2partslist()
-
 ### To add DNA parts to the parts list ###
 
-1. In R (CONSOLE WINDOW ONLY, YOU BIOLOGISTS!!!) type: save2partslist("the part's name","the part's sequence")
-
-2. Go to folder where save2partslist.R is saved, open partslist.txt to view your parts list. 
+1. Install <a href="https://cloud.r-project.org/" target="_blank">R</a> and <a href="https://www.rstudio.com/products/rstudio/download3/" target="_blank">RStudio</a> if you have not already. 
+2. Download and unzip this repository. Double-click and open save2partslist.R in RStudio.  
+3. Run the script. In RStudio the keyboard shortcut is Ctrl+Alt+R. This defines the function save2partslist()
+4. In R (CONSOLE WINDOW ONLY, YOU BIOLOGISTS!!!) type: save2partslist("the part's name","the part's sequence")
+5. Go to folder where save2partslist.R is saved, open partslist.txt to view your parts list. 
 
 ### To remove parts from the parts list ###
 

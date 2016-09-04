@@ -26,9 +26,13 @@
 ### To add DNA parts to the parts list ###
 
 1. Install <a href="https://cloud.r-project.org/">R</a> and <a href="https://www.rstudio.com/products/rstudio/download3/">RStudio</a> if you have not already. 
+
 2. Download and unzip this repository. Double-click and open save2partslist.R in RStudio.  
+
 3. Run the script. In RStudio the keyboard shortcut is Ctrl+Alt+R. This defines the function save2partslist()
-4. In R (CONSOLE WINDOW ONLY, YOU BIOLOGISTS!!!) type: save2partslist("the part's name","the part's sequence")
+
+4. In R CONSOLE WINDOW, type: save2partslist("the part's name","the part's sequence")
+
 5. Go to folder where save2partslist.R is saved, open partslist.txt to view your parts list. 
 
 ### To remove parts from the parts list ###

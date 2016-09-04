@@ -11,14 +11,14 @@
     You should have received a copy of the GNU General Public License
     along with VESICLES.  If not, see <http://www.gnu.org/licenses/>.
 
-#Verifies 
-#Everything before 
-#Synthesis and 
-#Includes a 
-#Corroborative 
-#List of 
-#Every 
-#Sequence
+#V erifies 
+#E verything before 
+#S ynthesis and 
+#I ncludes a 
+#C orroborative 
+#L ist of 
+#E very 
+#S equence
 
 ###What does VESICLES do?###
 
